@@ -123,4 +123,4 @@ def update_email():
             flash('This is already your current email address', 'info')
     else:
         flash('Update unsuccessful. Please enter a valid email address.', 'danger')
-    return render_template('update_email.html', title='Update Email', form=form)
+    return render_template('update_email.html', title='Update Email', form=form) 
